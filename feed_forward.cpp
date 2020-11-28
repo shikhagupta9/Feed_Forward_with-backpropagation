@@ -511,7 +511,7 @@ double Activation_Derivative(int type,double value)
 void file_read(vector<vector<double> >&dataset)
 {
     ifstream fin;
-    fin.open("/Users/shikhagupta/Desktop/ml_assignment/ml_assignment/Newdata.txt");
+    fin.open("Newdata.txt");
     while(fin)
        {
            string str;
